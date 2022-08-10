@@ -8,6 +8,7 @@ Like:
 # Interitance in java can be declare using "extends" keyword.
 
 
-# Q: Why Inheritance is not supported in Java?
+# Q: Why Multiple Inheritacen is not Suppoerted in Java?
 The reason behind this is to prevent ambiguity. Consider a case where class B extends class A and Class C and both class A and C have the same method display().
-Now java compiler cannot decide, which display method it should inherit. To prevent such situation, multiple inheritances is not allowed in java
+Now java compiler cannot decide, which display method it should inherit. To prevent such situation, multiple inheritances is not allowed in java.
+* In this case we use interfaces to overcome this issue.
